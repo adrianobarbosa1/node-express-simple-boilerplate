@@ -1,5 +1,5 @@
 {
-  "name": "boss-machine",
+  "name": "node-express-simple-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,14 +12,13 @@
   "dependencies": {
     "compression": "^1.7.4",
     "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
     "dotenv": "^16.0.0",
     "express": "^4.17.2",
     "joi": "^17.6.0",
-    "morgan": "^1.10.0",
-    "winston": "^3.5.1"
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3",
     "nodemon": "^2.0.15"
   }
 }
