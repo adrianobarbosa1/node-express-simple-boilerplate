@@ -18,8 +18,13 @@ if(config.env !== 'test'){
   app.use(morgan.errorHandler)
 }
 
-if(config.env !== 'production') app.use(cors())
+//ENABLE CORS
+app.use(cors());
+app.options('*', cors());
+
 app.disable('x-powered-by')
+
+//GZIP COMPRESSION
 app.use(compression())
 
 module.exports = app
